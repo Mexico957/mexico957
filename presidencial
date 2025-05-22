@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Presidential Website</title>
+  <style>
+    body {
+      background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #2a52be;
+      font-size: 40px;
+    }
+
+    p {
+      color: #228b22;
+      font-size: 20px;
+    }
+
+    form {
+      margin-top: 40px;
+    }
+
+    input, textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #2a52be;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #1d3d9e;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to My Website!</h1>
+  <p>This is my very first webpage.</p>
+
+  <h2>Contact the President</h2>
+  <form action="https://formsubmit.co/presidencialagenciadenoticias@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required><br>
+    <input type="email" name="email" placeholder="Your Email" required><br>
+    <textarea name="message" placeholder="Write your message here..." required></textarea><br>
+    <button type="submit">Send Message</button>
+  </form>
+
+</body>
+</html>
